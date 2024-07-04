@@ -4,7 +4,7 @@ gemspec
 
 gem 'dotenv'
 gem 'emittr'
-gem 'zlib'
+gem 'zlib', '~> 3.1.1'
 
 group :test do
   gem 'rspec'
